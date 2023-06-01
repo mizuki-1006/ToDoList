@@ -15,7 +15,7 @@ class CreateFoldersTable extends Migration
                 $table->id()->autoIncrement()->unsigned();
                 $table->string('title', 20);
                 $table->timestamps();
-                $table->unsignedBigInteger('user_id')->unsigned();
+                $table->bigInteger('user_id')->unsigned();
                 // 外部キーを設定する
                 $table->foreign('user_id')->references('id')->on('users');
             });
