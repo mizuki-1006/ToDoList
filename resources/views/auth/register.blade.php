@@ -26,11 +26,11 @@
               </div>
               <div class="form-group">
                 <label for="password">パスワード</label>
-                <input class="form-control" id="password" name="password">
+                <input type="password" class="form-control" id="password" name="password">
               </div>
               <div class="form-group">
                 <label for="password-confirm">パスワード（確認）</label>
-                <input class="form-control" id="password-confirm" name="password_confirmation">
+                <input type="password" class="form-control" id="password-confirm" name="password_confirmation">
               </div>
               <div class="text-right">
                 <button type="submit" class="btn btn-primary">送信</button>
